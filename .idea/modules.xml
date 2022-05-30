@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AfterSalesSDK.iml" filepath="$PROJECT_DIR$/.idea/modules/AfterSalesSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestLibrary/AfterSalesSDK.TestLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/TestLibrary/AfterSalesSDK.TestLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestLibrary/AfterSalesSDK.TestLibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TestLibrary/AfterSalesSDK.TestLibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestLibrary/AfterSalesSDK.TestLibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestLibrary/AfterSalesSDK.TestLibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestLibrary/AfterSalesSDK.TestLibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TestLibrary/AfterSalesSDK.TestLibrary.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication/AfterSalesSDK.myapplication.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication/AfterSalesSDK.myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication/AfterSalesSDK.myapplication.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication/AfterSalesSDK.myapplication.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication/AfterSalesSDK.myapplication.main.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication/AfterSalesSDK.myapplication.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication/AfterSalesSDK.myapplication.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication/AfterSalesSDK.myapplication.unitTest.iml" />
+    </modules>
+  </component>
+</project>

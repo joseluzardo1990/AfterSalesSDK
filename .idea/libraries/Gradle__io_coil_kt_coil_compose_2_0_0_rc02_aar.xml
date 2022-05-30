@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: io.coil-kt:coil-compose:2.0.0-rc02@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c1bb542a601dde09d6fb771918a36a72/transformed/coil-compose-2.0.0-rc02/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/abfc1fd0c4baf25cf416f5834f082ac9/transformed/coil-compose-2.0.0-rc02/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6f3c37095683b493c516bb224824e92e/transformed/coil-compose-2.0.0-rc02/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/01c4ba2d40e781675b7e607c683aad20/transformed/coil-compose-2.0.0-rc02/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/01c4ba2d40e781675b7e607c683aad20/transformed/coil-compose-2.0.0-rc02/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/01c4ba2d40e781675b7e607c683aad20/transformed/coil-compose-2.0.0-rc02/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.coil-kt/coil-compose/2.0.0-rc02/e907e7a50342324c1f4ecc180e73000eefdd529c/coil-compose-2.0.0-rc02-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.coil-kt/coil-compose/2.0.0-rc02/7fff73fc4e22a0b5c6554680476229fe377aa5f2/coil-compose-2.0.0-rc02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
