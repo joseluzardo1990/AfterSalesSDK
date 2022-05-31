@@ -32,24 +32,27 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion "1.1.1"
+        kotlinCompilerExtensionVersion compose_version
     }
 }
 
 dependencies {
 
-    //api "androidx.compose.ui:ui:1.0.1"
+    implementation "androidx.compose.ui:ui:$compose_version"
     // Integration with activities
     implementation 'androidx.activity:activity-compose:1.4.0'
     // Compose Material Design
-    implementation 'androidx.compose.material:material:1.1.1'
+    implementation "androidx.compose.material:material:$compose_version"
     // Animations
-    implementation 'androidx.compose.animation:animation:1.1.1'
+    implementation "androidx.compose.animation:animation:$compose_version"
     // Tooling support (Previews, etc.)
-    implementation 'androidx.compose.ui:ui-tooling:1.1.1'
+    implementation "androidx.compose.ui:ui-tooling:$compose_version"
 
     //liveData
-    implementation "androidx.compose.runtime:runtime-livedata:1.1.1"
+    implementation "androidx.compose.runtime:runtime-livedata:$compose_version"
+
+    //navigation
+    //implementation "androidx.navigation:navigation-compose:2.4.0-beta01"
 
     //retrofit
     implementation "com.squareup.retrofit2:retrofit:2.9.0"
