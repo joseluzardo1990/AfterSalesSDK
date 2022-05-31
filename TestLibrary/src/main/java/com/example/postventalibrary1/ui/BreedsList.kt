@@ -7,10 +7,12 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import com.example.postventalibrary1.ui.states.ExtraUIStates
 
 @Composable
 fun BreedsList(
-    breedList: List<String>
+    breedList: List<String>,
+    changeUiComponents: ChangeUiComponents?
 ){
 
     LazyColumn{
@@ -18,7 +20,7 @@ fun BreedsList(
             breed
         }) { breed ->
             Surface(modifier = Modifier.fillMaxWidth().clickable {
-                //navController.navigate("$detailsView/$breed")
+                changeUiComponents?.navigateTo(ExtraUIStates.NavigateToDetails(breed))
             }) {
                 ItemBreadList(breed)
             }
