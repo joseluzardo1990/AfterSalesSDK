@@ -13,7 +13,7 @@ class BreedsRepositoryImpl(
 
     override suspend fun getBreeds(): BreedStates {
         return try {
-            BreedStates.Loading(loading_data)
+            //BreedStates.Loading(loading_data)
             val response = breedsService.getBreeds()
             val breedsResponse = response.body()
             if (breedsResponse != null && breedsResponse.status == "success")
@@ -26,7 +26,7 @@ class BreedsRepositoryImpl(
 
     override suspend fun getBreedImages(name: String): BreedImagesStates {
         return try {
-            BreedImagesStates.Loading(loading_data)
+            //BreedImagesStates.Loading(loading_data)
             val response = breedsService.getBreedImages(name)
             val breedImagesResponse = response.body()
             if (breedImagesResponse != null && breedImagesResponse.status == "success")

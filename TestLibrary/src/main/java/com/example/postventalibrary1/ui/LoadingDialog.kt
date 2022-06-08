@@ -1,0 +1,41 @@
+package com.example.postventalibrary1.ui
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.CircularProgressIndicator
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+
+@Composable
+fun LoadingDialog(msg: String){
+    Dialog(
+        onDismissRequest = {  },
+        DialogProperties(dismissOnBackPress = false, dismissOnClickOutside = false)
+    ) {
+        Box(
+            contentAlignment= Alignment.Center,
+            modifier = Modifier
+                .background(Color.White, shape = RoundedCornerShape(8.dp))
+        ) {
+            Column (horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier.padding(all = 10.dp)){
+                CircularProgressIndicator(color = Color.Black)
+                Text(msg,
+                    fontSize = 16.sp, color = Color.Black,
+                    modifier = Modifier.padding(top = 15.dp),
+                    textAlign = TextAlign.Center)
+            }
+        }
+    }
+}

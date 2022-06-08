@@ -18,7 +18,7 @@ fun ItemBreadList(breed: String){
         .fillMaxWidth()) {
         Row {
             Text(breed, fontSize = 16.sp,
-                color = Color.Black,
+                color = Color.Red,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(all = 10.dp))
         }
